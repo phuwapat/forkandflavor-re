@@ -1,0 +1,1287 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: rgba(255, 254, 244, 1);
+    min-width: 768px;
+}
+
+/* Login Page */
+.Login__Page, .Register__Page{
+    display: flex;
+    gap: 0;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.Login__bg{
+    position: relative;
+    flex-basis: 40%;
+    background-image: url("./../Image/Login/unsplash_fdlZBWIP0aM.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Login__field, .Register__field{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-basis: 60%;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top:5%
+}
+.Login__field p{
+    position: relative;
+    top: 430px;
+    color: rgba(179, 179, 179, 1);
+    cursor: default;
+    
+}
+.Login__field a{
+    color: rgba(179, 179, 179, 1);
+}
+.Login__Logo{
+    position: relative;
+    width: 346px;
+    height: 148px;
+    top: 120px;
+
+}
+.Login__form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 300px;
+    align-items: center;
+}
+.Login__btn, .Register__btn{
+    background-color: rgba(178, 34, 34, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 167px;
+    height: 64px;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Components */
+.FormInput__box{
+    width: 398px;
+    height: 61px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: transparent;
+    font-size: 1.25rem;
+    padding-left: 10px;
+}
+.FormInput__label{
+    position: relative;
+    top:-5px;
+}
+
+/* Register Page */
+.Register__bg{
+  position: relative;
+  flex-basis: 40%;
+  background-image: url("./../Image/Register/unsplash_rAyCBQTH7ws.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Register__field header{
+  font-size: 2rem;
+  color: rgba(178, 34, 34, 1);
+  line-height: 3.7rem;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-top: 40px;
+}
+.Register__back{
+  position: absolute;
+  background-color: transparent;
+  border: 0;
+  padding-top: 70px;
+  left: 15%;
+  width: 48px;
+  height: 48px;
+}
+.Register__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.Register__btn{
+  width: 190.56px;
+  height: 64px;
+}
+
+/* Components */
+.Navbar{
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  overflow: hidden;
+  background-color: rgba(255, 254, 244, 1);
+  padding: 20px;
+  align-items: center;
+}
+.Navbar__Logo{
+  display: grid;
+  margin-left: -10%;
+  justify-content: center;
+  align-items: center;
+
+}
+.Navbar__Searchbar{ 
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.Navbar__route{
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.Navbar__routeLogin{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 80%;
+  align-items: center;
+}
+    #Icon__createPost{
+      position: relative;
+      /* left:-50px; */
+      width: 39px;
+      height: 39px;
+    }
+    #Icon__bookmark{
+      position: relative;
+      /* left:-20px; */
+      width: 18px;
+      height: 24px;
+    }
+
+/* Components */
+.BtnLetter{
+  background-color: transparent;
+  border: none;
+  font-size: 1.25rem;
+  color: black;
+  text-decoration: none;
+
+}
+    .BtnLetter:hover{
+      color: rgba(178, 34, 34, 1);
+    }
+.BtnBox{
+  background-color: rgba(178, 34, 34, 1);
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 105px;
+  height: 41px;
+  color: rgba(255, 254, 244, 1);
+  border-radius: 15px;
+  border: none;
+  font-size: 1.25rem; 
+  transition: 0.3s; 
+}
+    .BtnBox:hover{
+      background-color: rgba(141, 27, 27, 1);
+    }
+.BtnBox a{
+  color: rgba(255, 254, 244, 1);
+  text-decoration: none;
+}
+
+/* Components */
+.Searchbar__box{
+  width: 495px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: transparent;
+  padding-left: 35px;
+  font-size: 1.25rem;
+}
+.Searchbar img{
+  position: absolute;
+  padding: 8px;
+}
+.footer {
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  bottom: 10px;
+  margin: 10px;
+  color: rgba(178, 34, 34, 1);
+}
+
+.copyright {
+  color: black;
+}
+
+/*Home Page*/
+.Home__Page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+.Home__first{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+    .Home__first h1{
+      font-size: 4rem;
+      color: rgba(178, 34, 34, 1);
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .Home__first p{
+      font-size: 1.5rem;
+      color: rgba(130, 130, 130, 1);
+      text-align: center;
+    }
+
+.Home__second{
+  position: relative;
+  width: 80%;
+  padding-left: 10%;
+  overflow-x: hidden;
+}
+    
+    .Home__second h2{
+      position: relative;
+      top:30px;
+      font-size: 2.5rem;
+    }
+    .Home__second p{
+      font-size: 1.5rem;
+      color:rgba(130, 130, 130, 1);
+      ;
+    }
+
+.Home__third{
+  padding-top: 60px;
+}
+#header__third{
+  text-align: center;
+}
+    .Home__third h2{
+      font-size: 2.5rem;
+      color: rgba(178, 34, 34, 1);
+      line-height: 5px;
+    }
+    .Home__third p{
+      font-size: 1.5rem;
+      color: rgba(130, 130, 130, 1);
+    }
+.PostGrid{
+  display: grid;
+  padding-top: 20px;
+  width: 100%;
+  justify-content: center;
+  grid-template-columns: repeat(4, 235px);
+  grid-template-rows: repeat(4, 235px);
+  grid-gap: 10px;
+}
+
+.Home__recommend{
+  padding-left: 10%;
+  padding-top: 2%;
+  width: 80%;
+}
+    .Home__recommend h2{
+      font-size: 2.5rem;
+      line-height: 5px;
+    }
+    .Home__recommend p{
+      font-size: 1.5rem;
+      color: rgba(130, 130, 130, 1);
+    }
+.RecommendPost{
+  position: relative;
+  display: flex;
+  height: 217px;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 15px;
+}
+    .RecommendPost img{
+      width: 217px;
+      height: 217px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+    .RecommendPost h1{
+      color:rgba(141, 27, 27, 1);
+    }
+.RecommendPost__info{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top:-20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  
+}
+    .RecommendPost__info p{
+      position: relative; 
+      font-size: 1rem;
+      color: black;
+      top:-50px;
+      margin: 0;
+    }
+.RecommendPost__filter{
+  position: relative;
+  top:10px
+}
+.RecommendPost__info .StarRate{
+  position: relative;
+  top:10px
+}
+
+    #rp-pf{
+      position: relative;
+      top:-80px;
+      left:35px;
+    }
+    .RecommendPost__info img{
+      position: relative;
+      top:-45px;
+      width: 30px;
+      height: 30px;
+    }
+    .RecommendPost__info .StarRate p{
+      position: relative;
+      top:-55px;
+      color: black;
+    }
+    .RecommendPost__info .StarRate img{
+      width: 20px;
+      height: 20px;
+    }
+    
+.RecommendPost__grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+/* Components */
+.Slideshow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.Swiper{
+  width: 80%;
+  height: auto;
+  align-items: center;
+  height: 90vh;
+}
+.Swiper__img{
+  width: 100%;
+
+}
+
+.btn-border{
+  position: absolute;
+  width: 200px;
+  height: 2000px;
+  opacity: 0.4;
+
+}
+    .right{
+      background-image: linear-gradient(to right, rgba(255,0,0,0), black);
+    }
+    .left{
+      background-image: linear-gradient(to left, rgba(255,0,0,0), black);
+    }
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  --swiper-navigation-size: 50px;
+  --swiper-navigation-color: white;
+  
+}
+  .swiper-button-next:hover,.swiper-button-prev:hover{
+    opacity: 1;
+  }
+
+.swiper-pagination{
+  --swiper-pagination-color: white;
+  --swiper-pagination-bullet-size: 15px;
+  --swiper-pagination-bullet-inactive-color: black;
+  --swiper-pagination-bullet-inactive-opacity: 0.8;
+}
+
+/* Components */
+.Card__bg{
+  width: 100%;
+  filter: brightness(75%);
+  object-fit: contain;
+  object-position: bottom;
+}
+.Card__info{
+  z-index: 999;
+  position: absolute;
+  padding-left: 59px;
+  padding-top: 20px;
+}
+    .Card__info h1{
+      color: white;
+      font-size: 4rem;
+
+    }
+.Card__filter, .RecommendPost__filter{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  gap: 20px;
+
+}
+
+    .FilterBadge {
+      position: relative;
+      top:-45px;
+      color: white;
+      text-align: center;
+      background:rgba(14, 91, 77, 1);
+      width: fit-content;
+      height: 26px;
+      border-radius: 5px;
+      font-size: 1rem;
+      min-width: 40px;
+      min-height: 23px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+.Card__container{
+  display: block;
+}
+    .Card__container > p{
+      position: absolute;
+      color:white;
+    }
+
+.StarRate{
+  display: flex;
+  justify-content: baseline;
+}
+    .StarRate p{
+      position: relative;
+      top:-70px;
+      color: white;
+      font-size: 1.2rem;
+    }
+.star{
+  display: flex;
+  color: white;
+  padding-right: 10px;
+}
+    .star img{
+      position: relative;
+      width: 30px;
+      height: 30px;
+      top:-50px;
+    }
+.Card__CookTime, .Card__Yield, .Card__By{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 1.2rem;
+  gap: 15px;
+  top:-100px;
+}
+    .Card__CookTime img, .Card__Yield img{
+      position: relative;
+      width: 20px;
+      height: 20px;
+      top:25px;
+      left:5px;
+    }
+    .Card__Yield{
+      top:-135px;
+    }
+    .Card__By{
+      top:-170px;
+      left:5px;
+    }
+    .Card__By img{
+      position: relative;
+      top:12.5px;
+      width: 40px;
+      height: 40px;
+    }
+
+.FreeSlides{
+  width: 100%;
+}
+
+.FreeSlidesCard img {
+  width: 232px;
+  height: 232px;
+  object-fit: cover;
+  filter: brightness(75%);
+}
+.FreeSlidesCard__info{
+  z-index: 999;
+  position: absolute;
+}
+.FreeSlidesCard__info h1, .FreeSlidesCard__info p{
+  z-index: 999;
+  width: 200px;
+  position: relative;
+  color: white;
+  padding-left: 20px;
+}
+    .FreeSlidesCard__info h1{
+      font-size: 1.5rem;
+      line-height: 29px;
+    }
+    .FreeSlidesCard__info p{
+      font-size: 1rem;
+      top:-10px;
+      opacity: 0;
+      transition: 0.5s;
+      line-height: 20px;
+    }
+.FreeSlidesCard__creator{
+  position: absolute;
+  top:190px
+}
+    .FreeSlidesCard__creator img{
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 20px;
+      opacity: 0;
+      transition: 0.5s;
+    }
+    .FreeSlidesCard__creator p{
+      position: absolute;
+      top:-10px;
+      left: 35px;
+    }
+
+      .FreeSlidesCard:hover #PostBg{
+        filter: brightness(20%);
+        transition: 0.5s;
+      }
+      .FreeSlidesCard:hover p {
+        z-index: 999;
+        opacity: 1;
+      }
+      .FreeSlidesCard:hover img {
+        z-index: 999;
+        opacity: 1;
+      }
+
+/*MyProfile*/
+.MyProfile{
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  overflow: hidden;
+}
+.MyProfile__info{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  justify-content: space-between;
+}
+    .MyProfile__info img{
+      padding-left: 5%;
+      width: 92px;
+      height: 92px;
+      padding-left: 10%;
+      padding-right: 15px;
+    }
+    .MyProfile__info .BtnBox{
+      position: relative;
+      top:45px;
+    }
+    .MyProfile__info > div{
+      display: flex;
+      flex-direction: row;
+      font-size: 1.25rem;
+      line-height: 5px;
+    }
+    .MyProfile__info > div > div{
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+      font-size: 1.25rem;
+    }
+hr{
+  position: relative;
+  width: 80%;
+  top: 40px;
+  border: 0.5px solid rgba(179, 179, 179, 1);
+}
+
+.MyProfile__category{
+  padding-top: 40px;
+  width: 100%;
+}
+    .MyProfile__btnletter {
+      display: flex;
+      flex-direction: row;
+      padding-left: 14%;
+    }
+#btn__active {
+  color: black;
+}
+#btn__none {
+  color:rgba(179, 179, 179, 1);
+}
+    #btn__none a:hover{
+      color: black;
+    }
+
+.Posts__grid{
+  display: grid;
+  padding-top: 20px;
+  grid-template-columns: repeat(4,235px);
+  grid-auto-rows: 235px;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+/* EditProfile page */
+.EditProfile__page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Profile{
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+}
+.Profile__img{
+  width: 126px;
+  height: 126px;
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+
+.camera__icon{
+  position: relative;
+  left:-40px;
+  bottom: -110px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.camera__icon img:nth-child(1){
+  position: relative;
+  width: 29px;
+  height: 29px;
+}
+.camera__icon img:nth-child(2){
+  position: relative;
+  left:-23px;
+  top:-5px;
+  z-index: 999;
+  width: 18px;
+  height: 18px;
+}
+.EditProfile__page form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
+}
+.EditProfile__page .FormInput{ 
+  padding-bottom: 10px;
+}
+.EditProfile__page .BtnBox{
+  position: relative;
+  top:40px;
+  font-size: 1.5rem;
+  height: 55px;
+}
+.upLoad__profile input{
+  display: none;
+}
+
+
+/* Createpost page */
+
+.Createpost main{
+  padding-bottom: 200px;
+  overflow: hidden;
+}
+.Createpost__form{
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.Createpost__image input{
+  display: none;
+}
+.box-input-image{
+  display: flex;
+  width: 404px;
+  height: 538px;
+  background-color: rgba(179, 179, 179, 1);
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.createpost-first-part{
+  display: flex;
+  flex-direction: row;
+}
+.createpost-input-info{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  width: 300px;
+}
+.createpost-input-info input{
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  margin-bottom: 20px;
+} 
+    .createpost-input-info input::placeholder{
+      color: rgba(179, 179, 179, 1);
+
+    }
+    .createpost-input-info input:nth-child(1){
+      font-size: 3rem;
+    }
+    .createpost-input-info input:nth-child(6){
+      width: 300px;
+    }
+    .createpost-input-info #cook-time,.createpost-input-info #yield{
+      position: relative;
+      border-bottom: 1px solid black;
+      margin-left: 5px;
+      bottom: -5px;
+    }
+.createpost-input-info div{
+  display: flex;
+  flex-direction: row;
+}
+.createpost-second-part ,.createpost-second-part div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+    .createpost-second-part div:nth-child(2){
+      padding-top: 30px;
+    }
+
+.ingredient-box{
+  border: 2px solid black;
+  border-bottom: 0px;
+  min-height: 200px;
+  width: 540px; 
+  height: auto;
+}
+    .ingredient-box div{
+      display: flex;
+    }
+    .end-box-input{
+      position: relative;
+      bottom: -12px;
+      left: -5px;
+      padding-top: 100px;
+    }
+.ingredient-box-input{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}   
+    .ingredient-box-input button, .instruction-box-input button{
+      border: 0;
+      outline: 0;
+      background-color: transparent;
+      cursor: pointer;
+      width: fit-content;
+      height: fit-content;
+    }
+    .ingredient-box-input button{
+      position: relative;
+      top:90px;
+      left:-30px;
+    }
+    .ingredient-box-input div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 30px;
+    }
+    .ingredient-box-input input, .instruction-box-input input{
+      background: transparent;
+      border: 0px;
+      border-bottom: 2px solid rgba(179, 179, 179, 1);
+      outline: none;
+    }
+    .ingredient-box-input label, .instruction-box-input label{
+      display: flex;
+      justify-content: center;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    .ingredient-box-input label{
+      padding-bottom: 30px;
+    }
+    .instruction-box-input input{
+      width: 400px;
+    }
+    .instruction-box-input button{
+      position: relative;
+      left: -220px;
+      top: 20px;
+    }
+    .ingredient-box .BtnLetter{
+      position: relative;
+      left: 50px;
+      top: 10px;
+      color: rgba(179, 179, 179, 1);
+      font-size: 1rem;
+    }
+      .instruction-box-input .BtnLetter:nth-child(4),
+      .instruction-box-input div .BtnLetter:nth-child(1),
+      .instruction-box-input div .BtnLetter:nth-child(2){
+        font-size: 1rem;
+        color: rgba(179, 179, 179, 1);
+      }
+      .instruction-box-input .BtnLetter:nth-child(4){
+        position: relative;
+        top:0px;
+        left:-150px;
+      }
+      .instruction-box-input div .BtnLetter:nth-child(1),
+      .instruction-box-input div .BtnLetter:nth-child(2){
+        position: relative;
+        top:20px;
+        left:0px;
+        padding-bottom: 20px;
+      }
+      .instruction-box-input button:nth-child(6){
+        position: relative;
+        left: 225px;
+        top:-99px;
+      }
+.btn-group-createpost{
+  position: relative;
+  top:100px;
+  left:630px;
+}
+.btn-group-createpost .BtnBox:nth-child(1){
+  margin-right: 10px;
+  background-color: rgba(217, 217, 217, 1);
+  color: black;
+  transition: 0.3s;
+}
+    .btn-group-createpost .BtnBox:nth-child(1):hover{
+      background-color: transparent;
+      border: 3px solid black;
+    }
+
+
+  .BtnBack button{
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+  }
+  .instruction-list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  
+  .instruction-list div {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 480px;
+  }
+      .section {
+        position: relative;
+        top:-5px;
+        font-size: 1.5rem;
+      }
+      .instruction {
+        font-size: 1rem;
+      }
+  
+  .instruction-list button {
+    background: transparent;
+    border: 0;
+  }
+  
+  .dragdrop-content {
+    height: fit-content;
+    word-wrap: break-word; 
+    word-break: break-word;
+    overflow-wrap: break-word; 
+    align-items: center; 
+    text-align: start; 
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+/* Food Detail */
+.Fooddetail main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+  overflow: hidden;
+}
+.fooddetail-first-container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap:50px;
+}
+    .fooddetail-first-container .BtnBox{
+      width: 87px;
+      min-width: 0;
+      height: 28px;
+      font-size: 1rem;
+      border-radius: 10px;
+    }
+    .fooddetail-first-container div:nth-child(4),
+    .fooddetail-first-container div:nth-child(5),
+    .fooddetail-first-container div:nth-child(6),
+    .fooddetail-first-container div:nth-child(7){
+      position: relative;
+      top:-80px;
+      font-size: 1rem;
+      font-family: "Noto Sans Thai Looped", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    .fooddetail-first-container div:nth-child(7){
+      font-weight: 400;
+      color: rgba(81, 81, 81, 1);
+    }
+    .fooddetail-first-container div:nth-child(6){
+      word-spacing: 5px;
+    }
+    .fooddetail-first-container div:nth-child(6) img{
+      position: relative;
+      top:10px;
+    }
+.fooddetail-food-img{
+  display: flex;
+  width: 404px;
+  height: 538px;
+  object-fit: cover;
+}
+.fooddetail-filter{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.fooddetail-detail{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top:-40px;
+  width: 300px;
+}
+    .fooddetail-detail h1{
+      padding-bottom: 30px;
+      font-size: 3rem;
+      font-family: "Fredoka", sans-serif;
+      font-weight: 700;
+      font-style: bold;
+      color:rgba(178, 34, 34, 1);
+    
+    }
+    .fooddetail-detail .StarRate p{
+      color: black;
+      font-size: 1rem;
+      font-family: "Noto Sans Thai Looped", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    .fooddetail-detail .StarRate img{
+      width: 20px;
+      height: 20px;
+    }
+.fooddetail-description p{
+  position: absolute;
+  width: 300px;
+  height: fit-content;
+  overflow-wrap: break-word;
+}
+
+.fooddetail-fav{
+  position: absolute;
+  right: 18%;
+  top: 18%;
+  background-color: transparent;
+  border: 0;
+}
+.fooddetail-second-container h2, .fooddetail-third-container h2, .fooddetail-forth-container h2{
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 2.25rem;
+  color:rgba(178, 34, 34, 1);
+  
+}
+.fooddetail-second-container .ingredient-box{
+  width: 417px;
+}
+.ingredient-list {
+  padding: 0;
+  margin: 0;
+  padding: 50px;
+}
+
+.ingredient-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 5px 0;
+  font-size: 1rem;
+}
+
+.ingredient-name {
+  text-align: left;
+  width: 120px;
+  overflow-wrap: break-word;
+}
+
+.ingredient-quantity {
+  position: relative;
+  right: -100px;
+  font-weight: 700;
+}
+
+.ingredient-unit {
+  text-align: start;
+  position: relative;
+  right: -60px;
+}
+.fooddetail-rate{
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.fooddetail-forth-container{
+  width: 80%;
+  
+}
+    .fooddetail-forth-container hr{
+      position: relative;
+      width: 100%;
+    }
+    .fooddetail-forth-container .FreeSlides{
+      padding-top: 50px;
+    }
+  .fooddetail-freeslide{
+    padding-top: 70px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+.RateComment{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(255, 254, 244, 1);
+  width: 810px;
+  height: 629px;
+  text-align: center;
+  align-items: center;
+}
+    .modal-content :nth-child(2) p{
+      font-family: "Noto Sans Thai Looped", sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
+      padding-top: 20px;
+    }
+    .modal-content .BtnBox {
+      position: absolute;
+      right: 100px;
+      bottom: 50px;
+      width: 150px;
+      font-size: 1.5rem;
+    }
+.comment-box{
+  width: 610px;
+  height: 306px;
+  border: 3px solid black;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}   
+    .comment-box div:nth-child(1){
+      position: relative;
+      display: flex;
+      justify-content: center;
+      
+      top:20px;
+      left: -20px;
+    }
+        .comment-box div:nth-child(1) img{
+          width: 50px;
+          height: 50px;
+          padding-right: 40px;
+          padding-top: 10px;
+        }
+        .comment-box div:nth-child(1) textarea{
+          position: relative;
+          top:20px;
+          border: none;
+          /* outline: none; */
+          background-color: transparent;
+          width: 400px;
+          height: 150px;
+          resize: none;
+          
+        }
+    .comment-box div:nth-child(2){
+      display: flex;
+      position: relative;
+      bottom: -80px;
+      left: -170px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+        .comment-box div:nth-child(2) input{
+          display: none;
+        }
+        .comment-box div:nth-child(2) label, .comment-box div:nth-child(1) textarea{
+          font-family: "Noto Sans Thai Looped", sans-serif;
+          font-weight: 600;
+          font-size: 1rem;
+        }
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+/* Font */
+.noto-sans-thai-looped-thin {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .noto-sans-thai-looped-extralight {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .noto-sans-thai-looped-light {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .noto-sans-thai-looped-regular {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .noto-sans-thai-looped-medium {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .noto-sans-thai-looped-semibold {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .noto-sans-thai-looped-bold {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .noto-sans-thai-looped-extrabold {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .noto-sans-thai-looped-black {
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+.fredoka{
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+  font-variation-settings:
+    "width" 100;
+}
